@@ -16,9 +16,9 @@ updates:
       terraform:
         patterns:
           - "*"
-        update-types:
-          - "minor"
-          - "patch"
+#        update-types:
+#          - "minor"
+#          - "patch"
     schedule:
       interval: "monthly"
       time: "01:00"

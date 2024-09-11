@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "terraform" # See documentation for possible values
-    directory: "/terraform/org-manager/tf-cost-alerts"
+    directory: "/"
     allow:
       - dependency-name: "hashicorp/aws"
       - dependency-name: "hashicorp/tfe"

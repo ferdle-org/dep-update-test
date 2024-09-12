@@ -7,15 +7,15 @@ version: 2
 updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/terraform/org-manager/tf-cost-alerts"
-    allow:
-      - dependency-name: "hashicorp/aws"
-      - dependency-name: "hashicorp/tfe"
-    commit-message:
-      prefix: "eng: (misc) "
-    groups:
-      terraform:
-        patterns:
-          - "*"
+#    allow:
+#      - dependency-name: "hashicorp/aws"
+#      - dependency-name: "hashicorp/tfe"
+#    commit-message:
+#      prefix: "eng: (misc) "
+#    groups:
+#      terraform:
+#        patterns:
+#          - "*"
 #        update-types:
 #          - "minor"
 #          - "patch"

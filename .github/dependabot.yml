@@ -3,10 +3,10 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
-version: 2
-updates:
-  - package-ecosystem: "terraform" # See documentation for possible values
-    directory: "/terraform/org-manager/tf-cost-alerts"
+#version: 2
+#updates:
+#  - package-ecosystem: "terraform" # See documentation for possible values
+#    directory: "/terraform/org-manager/tf-cost-alerts"
 #    allow:
 #      - dependency-name: "hashicorp/aws"
 #      - dependency-name: "hashicorp/tfe"
@@ -19,6 +19,13 @@ updates:
 #        update-types:
 #          - "minor"
 #          - "patch"
+#    schedule:
+#      interval: "monthly"
+#      time: "01:00"
+
+version: 2
+updates:
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/" # Location of package manifests
     schedule:
-      interval: "monthly"
-      time: "01:00"
+      interval: "weekly"
